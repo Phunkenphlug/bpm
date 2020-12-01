@@ -1,0 +1,15 @@
+AcroRdr[a-zA-Z0-9\-\.\_]*.exe;/sPB /rs
+AdbeRdr[a-zA-Z0-9\-\.\_]*.exe;/sPB /rs /msi
+7z[a-zA-Z0-9\-\.]*-x64.exe;/S
+[0-9\.]*-desktop-win10-64bit-international-dch-whql.exe;-s
+[0-9\.]*-desktop-win10-64bit-international-whql.exe;-s
+winrar-x64-[a-zA-Z0-9\-\.]*.exe;/S
+vlc-[a-zA-Z0-9\-\.]*-win64.exe;/S
+vscodesetup[a-zA-Z0-9\-\.]*.exe;/VERYSILENT
+audacity-[a-zA-Z0-9\-\.]*.exe;/VERYSILENT
+Visual-C-Runtimes-All-in-One-[a-zA-Z0-9\-\.]*.exe;/S
+jre-[a-zA-Z0-9\-]*-x64.exe;INSTALL_SILENT=Enable WEB_JAVA_SECURITY_LEVEL=VH NOSTARTMENU=Enable EULA=Enable AUTO_UPDATE=Disable STATIC=Disable SPONSORS=Disable REMOVEOUTOFDATEJRES=1
+jre-[a-zA-Z0-9\-]*-i586.exe;INSTALL_SILENT=Enable WEB_JAVA_SECURITY_LEVEL=VH NOSTARTMENU=Enable EULA=Enable AUTO_UPDATE=Disable STATIC=Disable SPONSORS=Disable REMOVEOUTOFDATEJRES=1
+Vivaldi.[a-zA-Z0-9\-\.]*.x64.exe;--vivaldi-silent --do-not-launch-chrome --vivaldi-update --system-level
+FireFox_[a-zA-Z0-9\-\.\_]*.exe;/S
+mp3tagv[a-zA-Z0-9\-\.\_]*setup.exe;/S
