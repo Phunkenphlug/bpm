@@ -15,6 +15,7 @@ pdf24-creator-[0-9\-\.]*.exe;/VerySilent
 npp[0-9\.]*installer.x64.exe;/S
 vscodesetup[a-zA-Z0-9\-\.]*.exe;/VERYSILENT /MERGETASKS=!runcode
 vscodesetup-x64-[a-zA-Z0-9\-\.]*.exe;/VERYSILENT /MERGETASKS=!runcode
+vscodiumsetup-x64-[a-zA-Z0-9\-\.]*.exe;/VERYSILENT /MERGETASKS=!runcode
 audacity-[a-zA-Z0-9\-\.]*.exe;/VERYSILENT
 Visual-C-Runtimes-All-in-One-[a-zA-Z0-9\-\.]*.exe;/S
 jre-[a-zA-Z0-9\-]*-x64.exe;INSTALL_SILENT=Enable WEB_JAVA_SECURITY_LEVEL=VH NOSTARTMENU=Enable EULA=Enable AUTO_UPDATE=Disable STATIC=Disable SPONSORS=Disable REMOVEOUTOFDATEJRES=1
