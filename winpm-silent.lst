@@ -4,8 +4,6 @@ iview[g0-9]*_x64_setup.exe;/silent /group=1 /allusers=1
 iview[0-9]*_plugins_x64_setup.exe;/silent
 7z[a-zA-Z0-9\-\.]*-x64.exe;/S
 KeePass-[a-zA-Z0-9\-\.\_]*-Setup.exe;/silent
-[0-9\.]*-desktop-win10-64bit-international-dch-whql.exe;-s
-[0-9\.]*-desktop-win10-64bit-international-whql.exe;-s
 OBS-Studio-[0-9\.]*-Full-Installer-x64.exe;/S
 winrar-x64-[a-zA-Z0-9\-\.]*.exe;/S
 OBS-Studio-[a-zA-Z0-9\-\.]*-Full-Installer-x64.exe /S
@@ -14,15 +12,14 @@ everything-[a-zA-Z0-9\-\.]*.x64-setup.exe;/S
 pdf24-creator-[0-9\-\.]*.exe;/VerySilent
 npp[0-9\.]*installer.x64.exe;/S
 vscodesetup[a-zA-Z0-9\-\.]*.exe;/VERYSILENT /MERGETASKS=!runcode
-vscodesetup-x64-[a-zA-Z0-9\-\.]*.exe;/VERYSILENT /MERGETASKS=!runcode
-vscodiumsetup-x64-[a-zA-Z0-9\-\.]*.exe;/VERYSILENT /MERGETASKS=!runcode
+[vscodiumsetup|vscodesetup]*-x64-[a-zA-Z0-9\-\.]*.exe;/VERYSILENT /MERGETASKS=!runcode
 audacity-[a-zA-Z0-9\-\.]*.exe;/VERYSILENT
 Visual-C-Runtimes-All-in-One-[a-zA-Z0-9\-\.]*.exe;/S
-jre-[a-zA-Z0-9\-]*-x64.exe;INSTALL_SILENT=Enable WEB_JAVA_SECURITY_LEVEL=VH NOSTARTMENU=Enable EULA=Enable AUTO_UPDATE=Disable STATIC=Disable SPONSORS=Disable REMOVEOUTOFDATEJRES=1
-jre-[a-zA-Z0-9\-]*-i586.exe;INSTALL_SILENT=Enable WEB_JAVA_SECURITY_LEVEL=VH NOSTARTMENU=Enable EULA=Enable AUTO_UPDATE=Disable STATIC=Disable SPONSORS=Disable REMOVEOUTOFDATEJRES=1
+jre-[a-zA-Z0-9\-]*-[x64|i586]*.exe;INSTALL_SILENT=Enable WEB_JAVA_SECURITY_LEVEL=VH NOSTARTMENU=Enable EULA=Enable AUTO_UPDATE=Disable STATIC=Disable SPONSORS=Disable REMOVEOUTOFDATEJRES=1
 Vivaldi.[a-zA-Z0-9\-\.]*.x64.exe;--system-level --vivaldi-silent --do-not-launch-chrome
 FireFox_[a-zA-Z0-9\-\.\_]*.exe;/S
 mp3tagv[a-zA-Z0-9\-\.\_]*setup.exe;/S
 pdfcreator_[a-zA-Z0-9\-\.\_]*_setup.exe;/verysilent /noupdate /norestart
 powertoyssetup-[a-zA-Z0-9\-\.\_]*-x64.exe;--silent
 Thunderbird setup [0-9\.]*.exe;/S
+[0-9\.]*-desktop-[win10-|win11-]*64bit-international-[dch-]*whql.exe;-s -n
