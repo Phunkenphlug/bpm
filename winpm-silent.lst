@@ -1,10 +1,8 @@
-AcroRdr[a-zA-Z0-9\-\.\_]*.exe;/sPB /rs /msi EULA_ACCEPT=YES
-AdbeRdr[a-zA-Z0-9\-\.\_]*.exe;/sPB /rs /msi EULA_ACCEPT=YES
+[AcroRdr|AdbeRdr]*[a-zA-Z0-9\-\.\_]*.exe;/sPB /rs /msi EULA_ACCEPT=YES
 iview[g0-9]*_x64_setup.exe;/silent /group=1 /allusers=1
 iview[0-9]*_plugins_x64_setup.exe;/silent
 7z[a-zA-Z0-9\-\.]*-x64.exe;/S
 KeePass-[a-zA-Z0-9\-\.\_]*-Setup.exe;/silent
-OBS-Studio-[0-9\.]*-Full-Installer-x64.exe;/S
 winrar-x64-[a-zA-Z0-9\-\.]*.exe;/S
 OBS-Studio-[a-zA-Z0-9\-\.]*-Full-Installer-x64.exe /S
 vlc-[a-zA-Z0-9\-\.]*-win64.exe;/S
@@ -23,3 +21,4 @@ pdfcreator_[a-zA-Z0-9\-\.\_]*_setup.exe;/verysilent /noupdate /norestart
 powertoyssetup-[a-zA-Z0-9\-\.\_]*-x64.exe;--silent
 Thunderbird setup [0-9\.]*.exe;/S
 [0-9\.]*-desktop-[win10-|win11-]*64bit-international-[dch-]*whql.exe;-s -n
+shotcut-win64-[0-9]*.exe;/S
