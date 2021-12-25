@@ -22,3 +22,4 @@ powertoyssetup-[a-zA-Z0-9\-\.\_]*-x64.exe;--silent
 Thunderbird setup [0-9\.]*.exe;/S
 [0-9\.]*-desktop-[win10-|win11-]*64bit-international-[dch-]*whql.exe;-s -n
 shotcut-win64-[0-9]*.exe;/S
+Krita-x64-[0-9\.]*-setup.exe;/S
